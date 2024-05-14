@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container div{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+.block1{
+    border: 1px solid red;
+}
+
+.block2{
+    border: 1px solid blue;
+    position: relative;
+    top: 50px;
+    right: 75px;
+}
+
+.block3{
+    border: 1px solid green;
+    position: relative;
+    top: 100px;
+    right: 150px;
+}
